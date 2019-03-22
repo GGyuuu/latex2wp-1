@@ -33,7 +33,7 @@ class ParseError(Exception):
     pass
 
 
-endlatex = '&fg=' + style.textcolor
+endlatex = '&s=2&fg=' + style.textcolor
 
 # At the beginning, the commands \$, \% and \& are temporarily
 # replaced by placeholders (the second entry in each 4-tuple).
